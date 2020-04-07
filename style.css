@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+ul.sidenav li a {
+    float: right;
+}
+ul.sidenav{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+ul.sidenav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.sidenav li a:hover {
+  background-color: #EEE;
+}
+#main{
+	text-align: center;
+	 margin-right: 25%;
+  padding: 1px 16px;
+}
+#footer2{
+	text-align: right;
+	 margin-right:5%;
+  padding: 0px 0px 0px;
+}
+#footer1{
+	text-align: left;
+	 margin-right: 0;
+	padding: 10px;
+}
+#pimage{
+	float:left;
+	padding:20px 150px;
+}
