@@ -22,21 +22,25 @@ ul.sidenav li a:hover {
   background-color: #EEE;
 }
 #main{
-	text-align: center;
+	text-align: right;
 	 margin-right: 25%;
-  padding: 1px 16px;
+  padding: 0px 0px;
 }
 #footer2{
-	text-align: right;
-	 margin-right:5%;
-  padding: 0px 0px 0px;
+width:49%;
+position:absolute;
+bottom:15%;
+left:55%;
+display:block;
 }
+
 #footer1{
-	text-align: left;
-	 margin-right: 0;
-	padding: 10px;
+display:block;
+width:49%;
+position:absolute;
+bottom:10%;
 }
 #pimage{
 	float:left;
-	padding:20px 150px;
+	padding:0px 0px;
 }
