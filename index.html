@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>My website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	
 	</head>
 	<body>
-		<div id="container">
-				<div id="content">
-					<ul class="sidenav">
-					<li style="float:left"><a href="#name"><h3>RONIN</h3></a></li>
-						<li><a href="#contact">CONTACT</a></li>
-						<li><a href="#blog">BLOG</a></li>
-						<li><a href="#pages">PAGES</a></li>
-						<li><a href="#Service">SERVICES</a></li>
-						<li><a href="#about">ABOUT</a></li>
-						<li><a href="#home">HOME</a></li>
-					</ul>
-					<div id="pimage">
-						<img src="z.jpg" alt="spider-man" width="300" height="200">
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<a href="#" class="navbar-brand">RONIN</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navMenu">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="#" class="nav-link">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">SERVICES</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">BLOGS</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">PAGES</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">ABOUT</a>
+				</li>
+			</ul>
+		</nav>
+		<br> <br> <br>
+				<div class="row">
+				<div class="col-sm-6">
+						<img class="img-fluid" src="z.jpg" alt="Chania" width="460" height="800">
 					</div>
-				<div id="main">
+		
+		
+				<div class="col-sm-6">
 					<h4>This is me</h4>
 					<h2>Sojib Ali</h2>
-				<p>Hello, Hello , Hello</p>
-				
+				<p>SLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu maximus quam</p>
+				<p>SLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu maximus quam</p>
 				<p><button class="button">Discover Now</button></p>
-				
-					
 				</div>
 				
+				
+				
 			</div>
-			<div id="footer1">
+			<br> <br> <br>
+			<div class="row">
+			<div class="col-sm-8">
 			<h2>About Myself</h2>
-			<p>Most important is that you choose one and remain consistent<br>
-			If you’re writing the ‘About’ statement on a business websit<br>
-			If you’re writing the ‘About’ statement on a busin</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 			</div>
-			<div id="footer2">
+			<div class="col-sm-4">
 			 <h3>TOOLS EXPARTNESS</h3>
     		<label for="file">AFTER_EFFECTS 85%:</label>
  		<progress id="file" value="85" max="100"> 85% </progress><br>
@@ -47,5 +67,8 @@
 			
 			</div>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	</body>
 </html>
